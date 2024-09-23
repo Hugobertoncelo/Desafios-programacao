@@ -2,7 +2,7 @@ function pertenceFibonacci(numero) {
     let a = 0;
     let b = 1;
     while (b < numero) {
-      [a, b] = [b, a + b]; // Destructuring para trocar valores
+      [a, b] = [b, a + b]; 
     }
     return b === numero;
   }
